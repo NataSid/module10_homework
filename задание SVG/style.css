@@ -1,0 +1,41 @@
+.btn{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  
+} 
+.btn:hover { 
+  background: linear-gradient(#f5ae00, #f59500) #f5ae00; 
+}
+
+.btn:active { 
+  background: linear-gradient(#f59500, #f5ae00) #f59500; 
+}
+
+.btn_icon{
+  display: inline-block;
+}
+
+.btn_text{
+  display: inline-block;
+  font-size: 16px;
+}
+
+ .btn_icon svg path {
+  
+	d: path("M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-5.904-2.854a.5.5 0 1 1 .707.708L6.707 9.95h2.768a.5.5 0 1 1 0 1H5.5a.5.5 0 0 1-.5-.5V6.475a.5.5 0 1 1 1 0v2.768l4.096-4.097z");
+  }
+
+
+ .btn-magic svg path {
+    
+	d: path("M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-5.904-2.803a.5.5 0 1 1 .707.707L6.707 10h2.768a.5.5 0 0 1 0 1H5.5a.5.5 0 0 1-.5-.5V6.525a.5.5 0 0 1 1 0v2.768l4.096-4.096z");
+  }
+
